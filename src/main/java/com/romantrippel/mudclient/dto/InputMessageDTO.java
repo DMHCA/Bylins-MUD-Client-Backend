@@ -7,8 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
-public class OutputMessageDTO {
+public class InputMessageDTO {
     private String from;
     private String text;
-    private String time;
 }
